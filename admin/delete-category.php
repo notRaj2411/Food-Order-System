@@ -33,6 +33,53 @@
 
         //Delete Data from Database
         //SQL Query to Delete Data from Database
+        $sql = "DELETE FROM tbl_manage_food WHERE category_id=$id";
+
+        //Execute the Query
+            $res = mysqli_query($conn, $sql);
+
+        $sql = "DELETE FROM tbl_manage_category WHERE category_id=$id";
+            $res = mysqli_query($conn, $sql);
+        //Execute the Query
+
+        $sql2 = "SELECT * FROM tbl_contains WHERE category_id=$id ";
+            $res2 = mysqli_query($conn, $sql2);
+
+        // while($row=mysqli_fetch_assoc($res))
+        // {
+        //     $O_ID=$row['order_id'];
+
+        //     $sql = "DELETE FROM tbl_contains WHERE category_id=$id ";
+        //     $res = mysqli_query($conn, $sql);
+            
+        //     $sql = "DELETE FROM tbl_order WHERE order_id=$O_ID ";
+        //     $res = mysqli_query($conn, $sql);
+
+        // }
+
+        
+        
+
+        $sql = "DELETE FROM tbl_contains WHERE category_id=$id ";
+        $res = mysqli_query($conn, $sql);
+        
+        while($row2=mysqli_fetch_assoc($res2))
+        {
+            $O_ID=$row2['order_id'];
+            $sql = "DELETE FROM tbl_order WHERE order_id='$O_ID' ";
+            $res = mysqli_query($conn, $sql);
+        }        
+
+        // }
+
+        //Execute the Query
+
+        $sql = "DELETE FROM tbl_food WHERE category_id=$id";
+
+        //Execute the Query
+        $res = mysqli_query($conn, $sql);
+
+
         $sql = "DELETE FROM tbl_category WHERE category_id=$id";
 
         //Execute the Query

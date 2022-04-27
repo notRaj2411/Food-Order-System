@@ -74,7 +74,7 @@
                         <h3><?php echo $title; ?></h3>
                         <input type="hidden" name="food" value="<?php echo $title; ?>">
 
-                        <p class="food-price">$<?php echo $price; ?></p>
+                        <p class="food-price">₹<?php echo $price; ?></p>
                         <input type="hidden" name="price" value="<?php echo $price; ?>">
 
                         <div class="order-label">Quantity</div>
@@ -181,10 +181,12 @@ if(isset($_POST['submit']))
     //echo $sql2; die();
 
     //Execute the Query
+    $res4 = mysqli_query($conn, $sql4);
+
     $res2 = mysqli_query($conn, $sql2);
     if($res2==true){
     $res3 = mysqli_query($conn, $sql3);
-    $res4 = mysqli_query($conn, $sql4);
+    
     }
 
     //Check whether query executed successfully or not
