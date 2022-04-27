@@ -147,6 +147,7 @@ if(isset($_POST['submit']))
     //$a_id=rand(17,18);
     //Save the Order in Databaase
     //Create SQL to save the data
+    
     $sql2 = "INSERT INTO tbl_order SET 
         order_id = '$order_id',     
         total_price = $total,

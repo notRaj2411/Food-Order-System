@@ -279,12 +279,14 @@
                         ";
                         $res4=mysqli_query($conn,$sql4);
                         //added data to the manage_food_table
-    
-                        header('location:'.SITEURL.'admin/manage-food.php');
+                        }
+                    catch (Exception $e)
+                    {
+                        echo "Updateds Food";
                     }
-                    catch (Exception $e){
-                        header('location:'.SITEURL.'admin/manage-food.php');
-                    }
+                    header('location:'.SITEURL.'admin/manage-food.php');
+
+
                     
                 }
                 else

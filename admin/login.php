@@ -4,12 +4,50 @@
     <head>
         <title>Login - Food Order System</title>
         <link rel="stylesheet" href="../css/admin.css">
+        <style>
+            body {
+                height: 100%
+            }
+
+            body {
+                display: grid;
+                place-items: center;
+                background-image: url("../images/login/food.jpg");
+            }
+            .login{
+                display: grid;
+                place-items: center;
+                background: #ff4757;
+                border-radius: 15px;
+            }
+            .logintext
+            {
+                font-size:400%;
+                font-family: monospace;
+                color: #fff;
+            }
+            .text-center
+            {
+                font-size:200%;
+                font-family: monospace;
+                color: #fff;
+            }
+            .btn-primary
+            {
+                    background-color: #1e90ff;
+                    padding: 8%;
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                    border-radius: 15px;
+            }
+        </style>
     </head>
 
     <body>
         
         <div class="login">
-            <h1 class="text-center">Login</h1>
+            <h1 class="logintext" >Login</h1>
             <br><br>
 
             <?php 
@@ -45,6 +83,8 @@
 
     </body>
 </html>
+
+
 
 <?php
 //if submit button clicked
