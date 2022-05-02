@@ -1,7 +1,10 @@
 # Food Order System
 
 ## Collaborators
-
+* Abhishek Jalan
+* Kushagra Singh
+* Raj Srivastava
+* Kathan Naik
 
 
 ## Abstract
