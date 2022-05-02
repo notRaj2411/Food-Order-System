@@ -1,5 +1,9 @@
 # Food Order System
 
+## Collaborators
+
+
+
 ## Abstract
 This project is a food order website which also incorporates the features of a restaurant management system for the admin. HTML and CSS were used to design the front end. **PHP** was used to design the back end and connect the application to the MySQL database which stores the data for the website. **Apache** and **MYSQL** servers were set up using **Xampp**.
 Customers can search and find food items based on description, category, etc and place orders. Customer and Order details are saved into the database once the customer places the order.
