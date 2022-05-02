@@ -5,3 +5,4 @@ The web application comprises a dashboard used by a restaurant's Admin for modif
 
 # ER Diagram
 
+![alt text](https://github.com/findAJ/Food-Order-System/blob/main/ER.PNG?raw=true)
