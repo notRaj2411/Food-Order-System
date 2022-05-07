@@ -16,4 +16,4 @@ The web application comprises a dashboard used by a restaurant's Admin for modif
 
 ## Database Schema
 
-<a href="url"><img src="https://github.com/findAJ/Food-Order-System/blob/main/schema.PNG?raw=true" align="left" height="400" width="775" ></a>
+<a href="https://github.com/findAJ/Food-Order-System/blob/main/schema.PNG?raw=true"><img src="https://github.com/findAJ/Food-Order-System/blob/main/schema.PNG?raw=true" align="left" height="400" width="775" ></a>
