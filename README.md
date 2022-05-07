@@ -13,3 +13,7 @@ The web application comprises a dashboard used by a restaurant's Admin for modif
 ## ER Diagram
 
 ![alt text](https://github.com/findAJ/Food-Order-System/blob/main/ER.PNG?raw=true)
+
+## Database Schema
+
+<a href="url"><img src="https://github.com/findAJ/Food-Order-System/blob/main/schema.PNG?raw=true" align="left" height="400" width="775" ></a>
